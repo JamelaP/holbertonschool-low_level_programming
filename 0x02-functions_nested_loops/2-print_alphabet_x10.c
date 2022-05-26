@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints lowercase alphabet
+ * print_alphabet_x10 - prints lowercase alphabet
  *
  * Returrn: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int c;
 	int b;
 
-	b = 0;
+	b = 1;
 
-	while (b < 11)
+	while (b < 10)
 	{
 	for (c = 'a'; c <= 'z'; c++)
 	{
