@@ -9,15 +9,15 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	int c;
+	int c
 
-	c = 0;
-
-	while (str[c] != '\0')
+	c = 0	
+	while(str[c] != '\0')
 	{
-		_putchar(str[c]);
+		_putchar( str[c] );
 		c++;
 	}
-	_putchar('\n');
-	return (0);
+	_putchar( '\n' );
+
+	return(0);
 }
