@@ -1,15 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * print_line - check the code.
+ *
+ *@n: input
  *
  * Return: Always 0.
  */
-int main(void)
+
+void print_line(int n)
 {
-    print_line(0);
-    print_line(2);
-    print_line(10);
-    print_line(-4);
-    return (0);
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
 }

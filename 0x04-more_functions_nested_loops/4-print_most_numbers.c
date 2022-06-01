@@ -1,12 +1,17 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * print_most_numbers - check the code.
+ *
  *
  * Return: Always 0.
  */
-int main(void)
+
+void print_most_numbers(void)
 {
-    print_most_numbers();
-    return (0);
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
 }
