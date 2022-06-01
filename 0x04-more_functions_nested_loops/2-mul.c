@@ -9,12 +9,7 @@
  *
  * Return: Always 0.
  */
-
 int mul(int a, int b)
 {
-	if (c >= 'A' && c <= 'Z')
-	{
-		return (1);
-	}
-	return (0);
+	return (a * b);
 }
