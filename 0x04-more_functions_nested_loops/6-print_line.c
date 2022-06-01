@@ -11,8 +11,18 @@
 
 void print_line(int n)
 {
-	if (c >= 'A' && c <= 'Z')
+	int l;
+
+	if (n >= 0)
 	{
-		return (1);
+		for (l = 0; l <= n; l++)
+		{
+			_putchar('_');
+		}
+	}
+	else
+	{
+		_putchar('\n');
+
 	}
 }
