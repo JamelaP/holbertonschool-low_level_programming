@@ -1,17 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * print_array - print an array
+ * @a: input 1
+ * @n: input 2
  *
- *@n: input
- *
- * Return: Always 0.
  */
-void reset_to_98(int *n)
+void print_array(int *a, int n)
 {
-	int n;
-	int n = 98;
-	int *p = &n;
-	*p = 402;
+	_putchar(*a);
+	_putchar(n);
 }
