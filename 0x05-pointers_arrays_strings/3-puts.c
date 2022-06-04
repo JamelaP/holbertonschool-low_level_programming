@@ -1,17 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * _puts - check code
  *
- *@n: input
+ * @str: interger input
  *
- * Return: Always 0.
  */
-void reset_to_98(int *n)
+void _puts(char *str)
 {
-	int n;
-	int n = 98;
-	int *p = &n;
-	*p = 402;
+	int p = 0;
+
+	while (str[p] != '\0')
+	{
+		_putchar(str[p]);
+		p++;
+	}
+	_putchar('\n');
 }
