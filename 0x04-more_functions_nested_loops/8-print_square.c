@@ -2,24 +2,32 @@
 #include <stdio.h>
 
 /**
- * print_line - check the code.
+ * print_square - print square
  *
- *@n: input
+ *@size: input
  *
  * Return: Always 0.
  */
 
-void print_line(int n)
+void print_square(int size)
 {
-	int l;
+	int w;
+	int t;
 
-	if (n >= 0)
+	if (size >= 0)
 	{
-		for (l = 1; l <= n; l++)
+		for (t = 0; t < size; t++)
 		{
-			_putchar(95);
+			for (w = 0; w < size; w++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
+	else 
+	{
+		_putchar('\n');
+	}
 
 }

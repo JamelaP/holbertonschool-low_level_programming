@@ -2,24 +2,31 @@
 #include <stdio.h>
 
 /**
- * print_line - check the code.
+ * print_diagonal - check the code.
  *
- *@n: input
  *
  * Return: Always 0.
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int l;
+	int l, s;
 
-	if (n >= 0)
+	if (n > 0)
 	{
 		for (l = 1; l <= n; l++)
 		{
-			_putchar(95);
+			for (s = 0; s < l; s++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 
 }

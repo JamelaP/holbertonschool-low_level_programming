@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_line - check the code.
+ * print_triangle - check the code.
  *
- *@n: input
+ *@size: input
  *
  * Return: Always 0.
  */
