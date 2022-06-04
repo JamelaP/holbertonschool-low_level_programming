@@ -3,12 +3,17 @@
 /**
  * swap_int - check the code
  *
- *@n: input
+ *@k: input
+ *@j: input
  *
  * Return: Always 0.
  */
-void swap_int(int *a, int *b)
+
+void swap_int(int *k, int *j)
 {
-	*a = 98;
-	*b = 98;
+	int l;
+
+	l = *k;
+	*k = *j;
+	*j = l;
 }
