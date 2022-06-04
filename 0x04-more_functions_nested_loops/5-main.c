@@ -1,12 +1,26 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * rev_string - print a string in reverse
+ * @s: provided variable
+ * Return: void
  */
-int main(void)
+void rev_string(char *s)
 {
-    more_numbers();
-    return (0);
+	int n = 0, i = 0;
+	char c[2000];
+
+	while (*(s + n))
+	{
+		*(c + n) = *(s + n);
+		n++;
+	}
+	n = n - 1;
+	while (n >= 0)
+	{
+		*(s + n) = *(c + i);
+		i++;
+		n--;
+	}
 }
