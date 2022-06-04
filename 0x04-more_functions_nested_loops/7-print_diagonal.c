@@ -4,6 +4,7 @@
 /**
  * print_diagonal - check the code.
  *
+ * @n: interger
  *
  * Return: Always 0.
  */

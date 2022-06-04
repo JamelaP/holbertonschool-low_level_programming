@@ -4,22 +4,39 @@
 /**
  * print_triangle - check the code.
  *
- *@size: input
+ * @size: input
  *
  * Return: Always 0.
  */
 
-void print_line(int n)
+void print_triangle(int size)
 {
-	int l;
+	int blank;
+	int hashtag;
+	int row;
 
-	if (n >= 0)
+	if (size > 0)
 	{
-		for (l = 1; l <= n; l++)
+		for (row = 1; row <= size; row++)
 		{
-			_putchar(95);
+			blank = size - row;
+			while (blank > 0)
+			{
+				_putchar(' ');
+				blank--;
+			}
+			hashtag = row;
+			while (hashtag > 0)
+			{
+				_putchar('#');
+				hashtag--;
+			}
+		_putchar('\n');
 		}
 	}
-	_putchar('\n');
-
+	else
+	{
+		_putchar('\n');
+	}
 }
+
