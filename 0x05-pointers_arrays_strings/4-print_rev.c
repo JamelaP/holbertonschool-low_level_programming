@@ -1,17 +1,24 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * print_rev - print string in reverse
  *
- *@n: input
+ * @s: interger input
  *
- * Return: Always 0.
  */
-void reset_to_98(int *n)
+void print_rev(char *s)
 {
-	int n;
-	int n = 98;
-	int *p = &n;
-	*p = 402;
-}
+	int p = 0;
+
+	while (s[p] != '\0')
+	{
+		p++;
+	}
+	p = p - 1;
+	while (p >= 0)
+	{
+		_putchar(s[p]);
+			--p;
+	}
+	_putchar('\n');
+}}
