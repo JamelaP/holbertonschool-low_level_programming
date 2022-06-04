@@ -1,17 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * _strlen - returns the length of a string
  *
- *@n: input
+ * @k: characters in string
  *
- * Return: Always 0.
+ * Return: length of string
  */
-void reset_to_98(int *n)
+int _strlen(char *k)
 {
-	int n;
-	int n = 98;
-	int *p = &n;
-	*p = 402;
+	int n = 0;
+
+	while (*(k + n))
+	{
+		n++;
+	}
+
+	return (n);
 }
