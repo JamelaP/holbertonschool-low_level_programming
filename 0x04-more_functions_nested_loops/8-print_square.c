@@ -14,7 +14,7 @@ void print_square(int size)
 	int w;
 	int t;
 
-	if (size >= 0)
+	if (size > 0)
 	{
 		for (t = 0; t < size; t++)
 		{
