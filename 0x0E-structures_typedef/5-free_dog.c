@@ -4,7 +4,7 @@
 
 /**
  * free_dog-  a function that frees dogs.
- * @d: structure. 
+ * @d: structure.
  * Return: Nothing.
  */
 
