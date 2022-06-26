@@ -7,7 +7,7 @@
  * @src: string two
  * @n: number of bytes
  *
- * Return: Always 0.
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -21,6 +21,6 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return(dest);
+	return (dest);
 }
 
