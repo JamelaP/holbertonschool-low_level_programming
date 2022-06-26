@@ -8,12 +8,12 @@
  * @owner: name of owner
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}dog_t;
 
 /* Prototypes 0x0F*/
 
